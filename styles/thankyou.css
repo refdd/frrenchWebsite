@@ -1,0 +1,36 @@
+.thankYouContainer {
+  background: #ffffff;
+  /* 100 */
+
+  border: 1px solid #70939f;
+  box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+}
+.thankYouContainer .messageThank span {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #4e5255;
+}
+.descThank p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4e5255;
+}
+.descThank p .email {
+  font-weight: 700;
+}
+.thankLinks span {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  color: #0249ff;
+}
+.thankLinks i {
+  color: #0249ff;
+  font-size: 20px;
+  font-size: 20px;
+}

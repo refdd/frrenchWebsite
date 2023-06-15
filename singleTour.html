@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/singelTour.css" type="text/css" />
+    <link rel="stylesheet" href="styles/main.css" type="text/css" />
+    <link rel="stylesheet" href="styles/listPackage.css" type="text/css" />
+
+    <link rel="stylesheet" href="styles/normalize.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="styles/swiper-bundle.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <title>franch website</title>
+  </head>
+  <body>
+    <div class="bg-white">
+      <div class="container px-3 py-2">
+        <nav class="nav_container py-2">
+          <div class="row align-items-center">
+            <!-- menue bar icon  -->
+            <div class="col-2 d-block d-md-none">
+              <div
+                class="iconMneu d-flex justify-content-center align-items-center"
+              >
+                <div class="openIcon">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="closeIcon">
+                  <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+              </div>
+            </div>
+            <!-- image  -->
+            <div class="imgae_logo col-5 col-md-3">
+              <img src="assets/LogoColor.svg" alt="" />
+            </div>
+            <!-- links -->
+            <ul class="links_container d-none d-md-flex col-md-7">
+              <li class="">
+                <a href="/"> Home </a>
+              </li>
+              <li class="">
+                <a href="listPackages.html"> Packages </a>
+              </li>
+              <li class="active">
+                <a href="listCruises.html"> Nile Cruises </a>
+              </li>
+              <li class="">
+                <a href="listBlog.html"> Blogs </a>
+              </li>
+              <li class="">
+                <a href="contactUs.html"> ContactUs </a>
+              </li>
+            </ul>
+            <!-- buttom inquery -->
+            <div class="col-5 col-md-2">
+              <div class="buttom_inquri">
+                <button><a href="TailorMake.html">Tailor-make</a></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- links menu -->
+          <div class="col-12 menu_Bar d-flex flex-column mt-3 gap-3 d-md-none">
+            <ul class="mb-0 linksMenu">
+              <li class="border-bottom py-3"><a href="/"> Home</a></li>
+              <li class="border-bottom py-3">
+                <a href="listCrouse.html"> Página Principal</a>
+              </li>
+              <li class="border-bottom py-3">
+                <a href="listTour.html"> Pacotes</a>
+              </li>
+              <li class="border-bottom py-3">
+                <a href="aboutUs.html">Cruzeiros no Nilo </a>
+              </li>
+              <li class="border-bottom border-3 py-3">
+                <a href="listBlog.html">Ofertas Imperdíveis</a>
+              </li>
+              <li class="border-bottom border-3 py-3">
+                <a href="listBlog.html">Blog </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="headerList position-relative">
+      <div class="headerListContent position-absolute"></div>
+    </div>
+    <div class="container mt-md-5">
+      <div class="row">
+        <!-- taps -->
+        <div class="col-12 col-md-3">
+          <ul
+            class="tapsContainer d-flex align-items-center my-3 gap-3 flex-md-column"
+          >
+            <li class="py-2 px-4 active">
+              <a href="#overview">
+                <span class="">overView</span>
+              </a>
+            </li>
+            <li class="py-2 px-4">
+              <a href="#itinerary">
+                <span>Itinerary</span>
+              </a>
+            </li>
+            <li class="py-2 px-4">
+              <a href="#gallery">
+                <span>Gallery</span>
+              </a>
+            </li>
+            <li class="py-2 px-4">
+              <a href="#reviews">
+                <span>Reviews</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- layout and form -->
+        <div class="col-12 col-md-9">
+          <div class="row gy-3">
+            <!-- overview -->
+            <div class="col-12 col-md-7" id="overview">
+              <div class="overview d-flex flex-column gap-4">
+                <p class="header main">Mövenpick Nile Cruise During Easter</p>
+                <ul class="overviewList">
+                  <li>
+                    <p>
+                      Explorez les magnifiques temples d'Abou Simbel et admirez
+                      les quatre statues gargantuesques de Ramsès qui gardent le
+                      Grand Temple, creusé directement .
+                    </p>
+                  </li>
+                </ul>
+                <p class="header">Mövenpick Nile Cruise During Easter</p>
+                <ul class="overviewList">
+                  <li>
+                    <p>
+                      Rencontrez les habitants et les propriétaires de magasins
+                      en vous promenant dans les célèbres bazars d'Assouan, de
+                      Louxor et de Khan al-Khalili au Caire, la capitale de
+                      l'Égypte.
+                    </p>
+                  </li>
+                </ul>
+                <p class="header">Mövenpick Nile Cruise During Easter</p>
+                <ul class="overviewList">
+                  <li>
+                    <p>
+                      Naviguez sur le Nil, l'un des fleuves les plus
+                      emblématiques du monde. Détendez-vous confortablement en
+                      regardant défiler les scènes de la vie quotidienne
+                      égyptienne et en découvrant le jour se transformer en nuit
+                      depuis votre pont ensoleillé.
+                    </p>
+                  </li>
+                </ul>
+                <p class="header">Mövenpick Nile Cruise During Easter</p>
+
+                <ul class="overviewList">
+                  <li>
+                    <p>
+                      Rejoignez une famille locale dans un petit village près
+                      d'Assouan pour une nuit mémorable d'hospitalité nubienne.
+                      Découvrez cette culture ancienne en part.
+                    </p>
+                  </li>
+                </ul>
+                <p class="header">Mövenpick Nile Cruise During Easter</p>
+
+                <ul class="overviewList">
+                  <li>
+                    <p>
+                      Explorez les merveilles, la mythologie et les mystères de
+                      l'Égypte ancienne, notamment les pyramides de Gizeh et les
+                      tombes des pharaons emblématiques de la Vallée des.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="d-flex align-items-center gap-4">
+                <div class="mapButton py-2 px-3">
+                  <button>View on mpa</button>
+                  <i class="fa-regular fa-map"></i>
+                </div>
+                <div class="shearIcon">
+                  <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+              </div>
+            </div>
+            <!-- form -->
+            <div class="col-12 col-md-5">
+              <div class="singleTourPrice mb-md-3">
+                From <span>US$835</span>
+              </div>
+              <div class="fromInquery px-3 py-3">
+                <div class="headerFrom mb-3">Begins with a few steps.</div>
+                <div class="row gy-3">
+                  <!-- name -->
+                  <div class="col-12">
+                    <div class="d-flex flex-column gap-2">
+                      <label for=""> Name</label>
+                      <input
+                        class="form-control form-control-lg"
+                        type="text"
+                        placeholder="Name"
+                        aria-label=".form-control-lg example"
+                      />
+                    </div>
+                  </div>
+                  <!-- email -->
+                  <div class="col-12">
+                    <div class="d-flex flex-column gap-2">
+                      <label for="">Email</label>
+                      <input
+                        class="form-control form-control-lg"
+                        type="text"
+                        placeholder="Email"
+                        aria-label=".form-control-lg example"
+                      />
+                    </div>
+                  </div>
+                  <!-- Nationality -->
+                  <div class="col-12">
+                    <div class="d-flex flex-column gap-2">
+                      <label for="">Nationality</label>
+                      <select
+                        class="form-select form-select-lg mb-3"
+                        aria-label=".form-select-lg example"
+                      >
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <!-- Nationality -->
+                  <div class="col-12">
+                    <div class="d-flex flex-column gap-2">
+                      <label for="">Number</label>
+                      <input
+                        class="form-control form-control-lg"
+                        type="number"
+                        placeholder="Number"
+                        aria-label=".form-control-lg example"
+                      />
+                    </div>
+                  </div>
+                  <!-- Travelers -->
+                  <div class="col-12">
+                    <div class="d-flex flex-column gap-2">
+                      <label for="">Travelers</label>
+                      <div class="row drobdownCounter">
+                        <div class="col-6">
+                          <!-- adults -->
+                          <label class="mb-3" for=""> adults (+12)</label>
+
+                          <div
+                            class="d-flex gap-2 align-items-center border rounded-2 px-1"
+                          >
+                            <div
+                              class="counterContainer d-flex justify-content-between px-3"
+                            >
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                                onclick="removeCounter('adults')"
+                              >
+                                <i class="fa-solid fa-minus"></i>
+                              </div>
+                              <input
+                                id="adults"
+                                type="text"
+                                name="adults"
+                                class="form-control input-number book_all"
+                                value="0"
+                                min="1"
+                                max="100"
+                                readonly=""
+                                placeholder="adults"
+                              />
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                                onclick="addCounter('adults')"
+                              >
+                                <i class="fa-solid fa-plus"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6">
+                          <!-- children -->
+                          <label class="mb-3" for="">
+                            Children ( 0 - 12 )</label
+                          >
+
+                          <div
+                            class="d-flex gap-2 align-items-center border rounded-2 px-1"
+                          >
+                            <div
+                              class="counterContainer d-flex justify-content-between px-3"
+                            >
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                                onclick="removeCounter('Children')"
+                              >
+                                <i class="fa-solid fa-minus"></i>
+                              </div>
+                              <input
+                                id="Children"
+                                type="text"
+                                name="Children"
+                                class="form-control input-number book_all"
+                                value="0"
+                                min="1"
+                                max="100"
+                                readonly=""
+                                placeholder="Children"
+                              />
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                                onclick="addCounter('Children')"
+                              >
+                                <i class="fa-solid fa-plus"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- date -->
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="d-flex flex-column gap-2">
+                          <label for="startDate">Check-in date</label>
+                          <input
+                            id="startDate"
+                            class="form-control"
+                            type="date"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="d-flex flex-column gap-2">
+                          <label for="endDate">Check-out date</label>
+                          <input
+                            id="endDate"
+                            class="form-control"
+                            type="date"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- info -->
+                  <div class="col-12">
+                    <div class="d-flex flex-column gap-2">
+                      <label
+                        for="exampleFormControlTextarea1"
+                        class="form-label"
+                        >info</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="exampleFormControlTextarea1"
+                        rows="3"
+                        placeholder="More Information"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <!-- button -->
+                  <div class="col-12">
+                    <div class="d-flex justify-content-end">
+                      <div class="btnSendForm px-3 py-2">
+                        <button>Send</button>
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- incloud and excloud -->
+          <div class="row gy-4 mt-4">
+            <div class="col-12 col-md-6">
+              <div class="boxIncluded px-3 py-3 mx-2">
+                <span>Inclusions</span>
+                <ul class="mt-2 d-flex flex-column gap-3">
+                  <li class="d-flex align-items-center gap-2">
+                    <div class="iconIncluded">
+                      <i class="far fa-check-circle"></i>
+                    </div>
+                    <p>
+                      Chegada e assistência no aeroporto ou estação de trem pelo
+                      nosso representante
+                    </p>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <div class="iconIncluded">
+                      <i class="far fa-check-circle"></i>
+                    </div>
+                    <p>
+                      Assistência da nossa equipe durante sua estadia e passeios
+                    </p>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <div class="iconIncluded">
+                      <i class="far fa-check-circle"></i>
+                    </div>
+                    <p>
+                      Traslados em carro moderno de luxe com ar-condicionado
+                    </p>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <div class="iconIncluded">
+                      <i class="far fa-check-circle"></i>
+                    </div>
+                    <p>Passeios em grupo durante o cruzeiro</p>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <div class="iconIncluded">
+                      <i class="far fa-check-circle"></i>
+                    </div>
+                    <p>
+                      Acomodação por 3 noites a bordo do cruzeiro (pensão
+                      completa incluída)
+                    </p>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <div class="iconIncluded">
+                      <i class="far fa-check-circle"></i>
+                    </div>
+                    <p>
+                      Ingressos para todas as atrações entre Luxor e Aswan
+                      mencionadas no itinerário
+                    </p>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <div class="iconIncluded">
+                      <i class="far fa-check-circle"></i>
+                    </div>
+                    <p>Taxas de serviços e impostos</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="boxExIncluded px-3 py-3 mx-2">
+                <span>Exclusions</span>
+                <ul class="mt-2 d-flex flex-column gap-3">
+                  <li class="d-flex align-items-center gap-2">
+                    <div class="iconUncluded">
+                      <i class="far fa-times-circle"></i>
+                    </div>
+                    <p>Despesas pessoais</p>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <div class="iconUncluded">
+                      <i class="far fa-times-circle"></i>
+                    </div>
+                    <p>Gorjetas</p>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <div class="iconUncluded">
+                      <i class="far fa-times-circle"></i>
+                    </div>
+                    <p>Bebidas</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- itinerary -->
+          <div class="row mt-5" id="itinerary">
+            <div
+              class="headerItinerary d-flex justify-content-between align-items-center"
+            >
+              <span class="header">Itinerary</span>
+              <div class="download">
+                <span>Download here</span>
+                <i class="fa-solid fa-file-arrow-down"></i>
+              </div>
+            </div>
+            <!-- itinerary  -->
+            <div
+              class="accordion accordion-flush itinerary mt-4 d-flex flex-column gap-3"
+              id="accordionFlushExample"
+            >
+              <div class="accordion-item itinerary">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed itineraryheader"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#itineraryOne"
+                    aria-expanded="false"
+                    aria-controls="itineraryOne"
+                  >
+                    <p class="me-3">
+                      <span>day 1 : </span>perspiciatis unde omnis iste natus
+                      error sit voluptatem accusantium doloremque
+                    </p>
+                  </button>
+                </h2>
+                <div
+                  id="itineraryOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div
+                    class="accordion-body itineraryheaderDesc d-flex flex-column gap-3"
+                  >
+                    <p class="desc">
+                      Sed ut perspiciatis unde omnis iste natus error sit
+                      voluptatem accusantium doloremque laudantium, totam rem
+                      aperiam, eaque ipsa quae ab illo inventore veritatis et
+                      quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                      enim ipsam voluptatem quia voluptas sit aspernatur aut
+                      odit aut fugit, sed quia consequuntur magni dolores eos
+                      qui ratione voluptatem sequi nesciunt. Neque porro
+                      quisquam est, qui dolorem ipsum quia dolor sit amet,
+                      consectetur, adipisci velit, sed quia non numquam eius
+                      modi tempora incidunt ut labore et dolore magnam aliquam
+                      quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                      exercitationem ullam corporis suscipit laboriosam, nisi ut
+                      aliquid ex ea commodi consequatur? Quis autem vel eum iure
+                      reprehenderit qui in ea voluptate velit esse quam nihil
+                      molestiae consequatur, vel illum qui dolorem eum fugiat
+                      quo voluptas nulla pariatur?"
+                    </p>
+                    <div class="d-flex align-items-center gap-2">
+                      <i class="fa-solid fa-bed"></i>
+                      <div class="descLight">
+                        vel illum qui dolorem eum fugiat quo voluptas nulla
+                        pariatur?"
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-start gap-2">
+                      <i class="fa-solid fa-utensils"></i>
+                      <div class="descLight">
+                        vel illum qui dolorem eum fugiat quo voluptas nulla
+                        pariatur?"
+                      </div>
+                    </div>
+                    <p class="descLight">Accommodation:</p>
+                    <p class="desc">Sheraton or similar</p>
+                    <p class="descLight">Sed ut perspiciatis unde:</p>
+                    <p class="desc">
+                      voluptatem accusantium doloremque laudantium, totam rem
+                      aperiam, eaque ipsa quae ab illo inventore veritatis et
+                      quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                      enim ipsam voluptatem quia voluptas sit aspernatur aut
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item itinerary">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed itineraryheader"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#itinerarytow"
+                    aria-expanded="false"
+                    aria-controls="itinerarytow"
+                  >
+                    <p class="me-3">
+                      <span>day 2 : </span>perspiciatis unde omnis iste natus
+                      error sit voluptatem accusantium doloremque
+                    </p>
+                  </button>
+                </h2>
+                <div
+                  id="itinerarytow"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div
+                    class="accordion-body itineraryheaderDesc d-flex flex-column gap-3"
+                  >
+                    <p class="desc">
+                      Sed ut perspiciatis unde omnis iste natus error sit
+                      voluptatem accusantium doloremque laudantium, totam rem
+                      aperiam, eaque ipsa quae ab illo inventore veritatis et
+                      quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                      enim ipsam voluptatem quia voluptas sit aspernatur aut
+                      odit aut fugit, sed quia consequuntur magni dolores eos
+                      qui ratione voluptatem sequi nesciunt. Neque porro
+                      quisquam est, qui dolorem ipsum quia dolor sit amet,
+                      consectetur, adipisci velit, sed quia non numquam eius
+                      modi tempora incidunt ut labore et dolore magnam aliquam
+                      quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                      exercitationem ullam corporis suscipit laboriosam, nisi ut
+                      aliquid ex ea commodi consequatur? Quis autem vel eum iure
+                      reprehenderit qui in ea voluptate velit esse quam nihil
+                      molestiae consequatur, vel illum qui dolorem eum fugiat
+                      quo voluptas nulla pariatur?"
+                    </p>
+                    <div class="d-flex align-items-center gap-2">
+                      <i class="fa-solid fa-bed"></i>
+                      <div class="descLight">
+                        vel illum qui dolorem eum fugiat quo voluptas nulla
+                        pariatur?"
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-start gap-2">
+                      <i class="fa-solid fa-utensils"></i>
+                      <div class="descLight">
+                        vel illum qui dolorem eum fugiat quo voluptas nulla
+                        pariatur?"
+                      </div>
+                    </div>
+                    <p class="descLight">Accommodation:</p>
+                    <p class="desc">Sheraton or similar</p>
+                    <p class="descLight">Sed ut perspiciatis unde:</p>
+                    <p class="desc">
+                      voluptatem accusantium doloremque laudantium, totam rem
+                      aperiam, eaque ipsa quae ab illo inventore veritatis et
+                      quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                      enim ipsam voluptatem quia voluptas sit aspernatur aut
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item itinerary">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed itineraryheader"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#itinerarythree"
+                    aria-expanded="false"
+                    aria-controls="itinerarythree"
+                  >
+                    <p class="me-3">
+                      <span>day 3 : </span>perspiciatis unde omnis iste natus
+                      error sit voluptatem accusantium doloremque
+                    </p>
+                  </button>
+                </h2>
+                <div
+                  id="itinerarythree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div
+                    class="accordion-body itineraryheaderDesc d-flex flex-column gap-3"
+                  >
+                    <p class="desc">
+                      Sed ut perspiciatis unde omnis iste natus error sit
+                      voluptatem accusantium doloremque laudantium, totam rem
+                      aperiam, eaque ipsa quae ab illo inventore veritatis et
+                      quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                      enim ipsam voluptatem quia voluptas sit aspernatur aut
+                      odit aut fugit, sed quia consequuntur magni dolores eos
+                      qui ratione voluptatem sequi nesciunt. Neque porro
+                      quisquam est, qui dolorem ipsum quia dolor sit amet,
+                      consectetur, adipisci velit, sed quia non numquam eius
+                      modi tempora incidunt ut labore et dolore magnam aliquam
+                      quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                      exercitationem ullam corporis suscipit laboriosam, nisi ut
+                      aliquid ex ea commodi consequatur? Quis autem vel eum iure
+                      reprehenderit qui in ea voluptate velit esse quam nihil
+                      molestiae consequatur, vel illum qui dolorem eum fugiat
+                      quo voluptas nulla pariatur?"
+                    </p>
+                    <div class="d-flex align-items-center gap-2">
+                      <i class="fa-solid fa-bed"></i>
+                      <div class="descLight">
+                        vel illum qui dolorem eum fugiat quo voluptas nulla
+                        pariatur?"
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-start gap-2">
+                      <i class="fa-solid fa-utensils"></i>
+                      <div class="descLight">
+                        vel illum qui dolorem eum fugiat quo voluptas nulla
+                        pariatur?"
+                      </div>
+                    </div>
+                    <p class="descLight">Accommodation:</p>
+                    <p class="desc">Sheraton or similar</p>
+                    <p class="descLight">Sed ut perspiciatis unde:</p>
+                    <p class="desc">
+                      voluptatem accusantium doloremque laudantium, totam rem
+                      aperiam, eaque ipsa quae ab illo inventore veritatis et
+                      quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                      enim ipsam voluptatem quia voluptas sit aspernatur aut
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item itinerary">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed itineraryheader"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#itineraryfore"
+                    aria-expanded="false"
+                    aria-controls="itineraryfore"
+                  >
+                    <p class="me-3">
+                      <span>day 4 : </span>perspiciatis unde omnis iste natus
+                      error sit voluptatem accusantium doloremque
+                    </p>
+                  </button>
+                </h2>
+                <div
+                  id="itineraryfore"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div
+                    class="accordion-body itineraryheaderDesc d-flex flex-column gap-3"
+                  >
+                    <p class="desc">
+                      Sed ut perspiciatis unde omnis iste natus error sit
+                      voluptatem accusantium doloremque laudantium, totam rem
+                      aperiam, eaque ipsa quae ab illo inventore veritatis et
+                      quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                      enim ipsam voluptatem quia voluptas sit aspernatur aut
+                      odit aut fugit, sed quia consequuntur magni dolores eos
+                      qui ratione voluptatem sequi nesciunt. Neque porro
+                      quisquam est, qui dolorem ipsum quia dolor sit amet,
+                      consectetur, adipisci velit, sed quia non numquam eius
+                      modi tempora incidunt ut labore et dolore magnam aliquam
+                      quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                      exercitationem ullam corporis suscipit laboriosam, nisi ut
+                      aliquid ex ea commodi consequatur? Quis autem vel eum iure
+                      reprehenderit qui in ea voluptate velit esse quam nihil
+                      molestiae consequatur, vel illum qui dolorem eum fugiat
+                      quo voluptas nulla pariatur?"
+                    </p>
+                    <div class="d-flex align-items-center gap-2">
+                      <i class="fa-solid fa-bed"></i>
+                      <div class="descLight">
+                        vel illum qui dolorem eum fugiat quo voluptas nulla
+                        pariatur?"
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-start gap-2">
+                      <i class="fa-solid fa-utensils"></i>
+                      <div class="descLight">
+                        vel illum qui dolorem eum fugiat quo voluptas nulla
+                        pariatur?"
+                      </div>
+                    </div>
+                    <p class="descLight">Accommodation:</p>
+                    <p class="desc">Sheraton or similar</p>
+                    <p class="descLight">Sed ut perspiciatis unde:</p>
+                    <p class="desc">
+                      voluptatem accusantium doloremque laudantium, totam rem
+                      aperiam, eaque ipsa quae ab illo inventore veritatis et
+                      quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                      enim ipsam voluptatem quia voluptas sit aspernatur aut
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item itinerary">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed itineraryheader"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#itineraryFive"
+                    aria-expanded="false"
+                    aria-controls="itineraryFive"
+                  >
+                    <p class="me-3">
+                      <span>day 5 : </span>perspiciatis unde omnis iste natus
+                      error sit voluptatem accusantium doloremque
+                    </p>
+                  </button>
+                </h2>
+                <div
+                  id="itineraryFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div
+                    class="accordion-body itineraryheaderDesc d-flex flex-column gap-3"
+                  >
+                    <p class="desc">
+                      Sed ut perspiciatis unde omnis iste natus error sit
+                      voluptatem accusantium doloremque laudantium, totam rem
+                      aperiam, eaque ipsa quae ab illo inventore veritatis et
+                      quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                      enim ipsam voluptatem quia voluptas sit aspernatur aut
+                      odit aut fugit, sed quia consequuntur magni dolores eos
+                      qui ratione voluptatem sequi nesciunt. Neque porro
+                      quisquam est, qui dolorem ipsum quia dolor sit amet,
+                      consectetur, adipisci velit, sed quia non numquam eius
+                      modi tempora incidunt ut labore et dolore magnam aliquam
+                      quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                      exercitationem ullam corporis suscipit laboriosam, nisi ut
+                      aliquid ex ea commodi consequatur? Quis autem vel eum iure
+                      reprehenderit qui in ea voluptate velit esse quam nihil
+                      molestiae consequatur, vel illum qui dolorem eum fugiat
+                      quo voluptas nulla pariatur?"
+                    </p>
+                    <div class="d-flex align-items-center gap-2">
+                      <i class="fa-solid fa-bed"></i>
+                      <div class="descLight">
+                        vel illum qui dolorem eum fugiat quo voluptas nulla
+                        pariatur?"
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-start gap-2">
+                      <i class="fa-solid fa-utensils"></i>
+                      <div class="descLight">
+                        vel illum qui dolorem eum fugiat quo voluptas nulla
+                        pariatur?"
+                      </div>
+                    </div>
+                    <p class="descLight">Accommodation:</p>
+                    <p class="desc">Sheraton or similar</p>
+                    <p class="descLight">Sed ut perspiciatis unde:</p>
+                    <p class="desc">
+                      voluptatem accusantium doloremque laudantium, totam rem
+                      aperiam, eaque ipsa quae ab illo inventore veritatis et
+                      quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                      enim ipsam voluptatem quia voluptas sit aspernatur aut
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- gallery -->
+    <div class="gallerySection mt-5" id="gallery">
+      <div class="swiper gallerSlider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="imgGallery">
+              <img src="assets/tourImage (1).jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="imgGallery">
+              <img src="assets/tourImage (2).jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="imgGallery">
+              <img src="assets/tourImage (3).jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="imgGallery">
+              <img src="assets/tourImage (4).jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="imgGallery">
+              <img src="assets/tourImage (1).jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- reviews -->
+    <div class="container mt-5" id="reviews">
+      <div
+        class="d-flex justify-content-between align-items-center px-3 headerSection"
+      >
+        <span>What People Say About Us</span>
+        <div class=""></div>
+      </div>
+    </div>
+    <div class="layoutReview mt-3">
+      <div class="ReviewSection">
+        <img
+          src="assets/Rectangle 1.jpg"
+          alt=""
+          class="layout d-none d-md-block"
+        />
+        <img src="assets/Egypr 1.png" alt="" class="lines d-none d-md-block" />
+        <div class="containerCardReview mt-md-4 py-4 px-2">
+          <div class="swiper reviewSlier py-4">
+            <div class="swiper-wrapper">
+              <!-- card -->
+              <div class="swiper-slide">
+                <div class="row m-0">
+                  <div class="col-3 col-md-5">
+                    <div class="imageauthor">
+                      <img src="assets/author (2).jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-9 col-md-7">
+                    <div class="cardReview px-3 py-4 d-flex flex-column gap-4">
+                      <div class="d-flex justify-content-between">
+                        <!-- title -->
+                        <div class="titleReview d-flex flex-column gap-1">
+                          <span>Carol Smith</span>
+                          <p>Unique route to Egypt</p>
+                        </div>
+                        <!-- star -->
+                        <div class="d-flex align-items-centera gap-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="descReview d-flex flex-column">
+                        <span
+                          >Experience the wonders of Ancient Egypt and modern
+                          day Cairo with this full day tour. With your
+                          egyptologist guide, you'll first visit the Museum of
+                          Egyptian Antiquities. See the Alabaster Mosque/Mosque
+                          of Muhammad Ali and the colourful bazaar of Khan
+                          Al-Khalili. Visit the multitude of attractions in
+                          Coptic Cairo (where remnants of Babylon remain)
+                          including the Hanging Church and the Ben Ezra
+                          Synagogue. You'll also visit Cairo Citadel, the
+                          historic seat of government.</span
+                        >
+                        <!-- created at  -->
+                        <span>11\19\2023</span>
+                      </div>
+                      <div class="tripadvisor">
+                        <span>Posted on</span>
+                        <div class="imgTripadivisor">
+                          <img src="assets/tripadvisor.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row m-0">
+                  <div class="col-3 col-md-5">
+                    <div class="imageauthor">
+                      <img src="assets/author (1).jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-9 col-md-7">
+                    <div class="cardReview px-3 py-4 d-flex flex-column gap-4">
+                      <div class="d-flex justify-content-between">
+                        <!-- title -->
+                        <div class="titleReview d-flex flex-column gap-1">
+                          <span>Carol Smith</span>
+                          <p>Unique route to Egypt</p>
+                        </div>
+                        <!-- star -->
+                        <div class="d-flex align-items-centera gap-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="descReview d-flex flex-column">
+                        <span
+                          >This is my second trip to Egypt and it was really
+                          unique. It was definitely off the beaten track. We
+                          really enjoyed the different sights we saw on this
+                          tour! Highly recommend this trip.</span
+                        >
+                        <!-- created at  -->
+                        <span>11\19\2023</span>
+                      </div>
+                      <div class="tripadvisor">
+                        <span>Posted on</span>
+                        <div class="imgTripadivisor">
+                          <img src="assets/tripadvisor.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-6 col-md-4">
+          <div class="logFooter">
+            <img src="assets/Logo.png" alt="" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <ul class="footerLinks d-flex flex-column gap-4">
+            <li class="">
+              <span>Home</span>
+            </li>
+            <li class="">
+              <span>Packages</span>
+            </li>
+            <li class="">
+              <span>Nile Cruises</span>
+            </li>
+            <li class="">
+              <span>Blogs</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="contactUsFooter">
+            <span class="header py-3">Contact us</span>
+            <ul class="d-flex flex-column gap-3 mt-3">
+              <li class="d-flex gap-2 align-items-center">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Info@egyptvoyage.com</span>
+              </li>
+              <li class="d-flex gap-2 align-items-center">
+                <i class="fa-solid fa-phone"></i>
+                <span>0000000000</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="js/singleTour.js"></script>
+    <script src="js/singleSlider.js"></script>
+    <script src="js/listTour.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
