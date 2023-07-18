@@ -16,6 +16,10 @@
       rel="stylesheet"
     />
     <link
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="styles/swiper-bundle.min.css"
       type="text/css"
@@ -863,18 +867,8 @@
     </div>
     <!-- gallery -->
     <div class="gallerySection mt-5" id="gallery">
-      <div class="swiper gallerSlider">
+      <!-- <div class="swiper gallerSlider">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="imgGallery">
-              <img src="assets/tourImage (1).jpg" alt="" />
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="imgGallery">
-              <img src="assets/tourImage (2).jpg" alt="" />
-            </div>
-          </div>
           <div class="swiper-slide">
             <div class="imgGallery">
               <img src="assets/tourImage (3).jpg" alt="" />
@@ -891,7 +885,42 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
+      <section class="splide mb-5" aria-labelledby="carousel-heading">
+        <div class="splide__pagination"></div>
+        <div class="splide__arrows">
+          <button class="splide__arrow splide__arrow--prev">
+            <i class="fas fa-long-arrow-alt-left"></i>
+          </button>
+          <button class="splide__arrow splide__arrow--next">
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </button>
+        </div>
+        <div class="splide__track py-5 px-3">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="imgGallery">
+                <img src="assets/tourImage (3).jpg" alt="" />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="imgGallery">
+                <img src="assets/tourImage (4).jpg" alt="" />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="imgGallery">
+                <img src="assets/tourImage (1).jpg" alt="" />
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="imgGallery">
+                <img src="assets/tourImage (1).jpg" alt="" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
     <!-- reviews -->
     <div class="container mt-5" id="reviews">
@@ -1056,6 +1085,9 @@
     </div>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
     <script src="js/singleTour.js"></script>
     <script src="js/singleSlider.js"></script>
